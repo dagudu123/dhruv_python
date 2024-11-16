@@ -6,14 +6,12 @@ while True:
         number= int(input_num)
 
         found = False
-        index = 1
         # find if number exists in list
-        for elem in l:
-                if elem == number:
+        for i in range(0, len(l)):
+                if l[i] == number:
                         found = True
-                        print("%d is in index %d of the list" % (number, index))
+                        print("%d is in index %d of the list" % (number, i))
                         break
-                index += 1
 
         if not found:
                 print("%d is not in the list" % number)
