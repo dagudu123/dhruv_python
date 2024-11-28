@@ -1,9 +1,9 @@
-Get input
-a(0) = 0; if n = 0
-for n in 1 to MAXN:
-      a(n) = a(n-1) - n
-      if a[n] is negative or already in the sequence:
-              a[n] = a(n) = a(n-1) + n
+## Get input
+## a(0) = 0; if n = 0
+## for n in 1 to MAXN:
+##      a(n) = a(n-1) - n
+##      if a[n] is negative or already in the sequence:
+##              a[n] = a(n) = a(n-1) + n
 import time
 
 def recaman_sequence(MAXN):
